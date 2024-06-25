@@ -1,30 +1,35 @@
-/* Apply flexbox to body and main containers */
-body {
+body{
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ensures the body takes at least the full viewport height */
 }
-
 main {
     display: flex;
     flex-direction: row;
-    flex: auto;
+    background-color: green;
+}
+article{
+   
+}
+body,
+main {
+  display: flex;
 }
 
-/* Set article to take 2/3 of the width */
+body {
+  flex-direction: column;
+}
+
+main {
+  flex-direction: row;
+  flex: auto;
+}
+
 article {
-    flex: 2;
-    overflow-y: auto;
+  flex: 2;
+  overflow-y: auto;
 }
 
-/* Set aside to take 1/3 of the width */
 aside {
-    flex: 1;
-    overflow-y: auto;
-}
-
-/* Optional: Add some padding and margins for better visual separation */
-header, footer, article, aside {
-    padding: 20px;
-    margin: 10px;
+  flex: 1;
+  overflow-y: auto;
 }
