@@ -67,12 +67,12 @@ header {
   padding-top: 35px;
 }
 
-.nav-links {
+.nav {
   list-style: none;
   display: flex;
 }
 
-.nav-links > li > a {
+.nav > li > a {
   padding: 53px;
   text-decoration: none;
   color: var(--white-font);
@@ -81,7 +81,7 @@ header {
   font-style: bold;
 }
 
-.header-mid-content {
+.schooled {
   display: flex;
   flex-direction: column;
   place-content: center;
@@ -91,7 +91,7 @@ header {
   text-align: center;
 }
 
-.header-mid-content > h1 {
+.schooled > h1 {
   font-size: 120px;
   font-family: "Source Sans Pro";
   font-weight: 700;
@@ -99,7 +99,7 @@ header {
   color: var(--white-font);
 }
 
-.sub-titles {
+.cover {
   color: var(--first-font-color);
   padding: 20px;
   font-size: 16px;
@@ -107,12 +107,12 @@ header {
   font-style: normal;
 }
 
-.sub-titles > span {
+.cover > span {
   margin: 20px;
   color: var(--white-font);
 }
 
-.header-mid-content > button {
+.schooled > button {
   height: 44px;
   width: 162px;
   border: none;
@@ -127,12 +127,12 @@ header {
   color: var(--white-font);
 }
 
-.header-lower {
+.pros {
   position: absolute;
   top: 130%;
 }
 
-.header-lower > h2 {
+.pros > h2 {
   margin-bottom: 5rem;
   text-align: center;
   font-size: 32px;
@@ -146,13 +146,13 @@ header {
   color: var(--purple-font);
 }
 
-.header-profiles {
+.profile {
   display: grid;
   grid-template-columns: repeat(4, minmax(250px, auto));
   margin-top: 20px;
 }
 
-.header-profiles > div {
+.profile > div {
   display: flex;
   flex-direction: column;
   align-items: center; 
@@ -172,7 +172,7 @@ header {
   font-size: 18px;
   color: var(--white-font);
 }
-.profile-bio {
+.bio{
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
@@ -183,7 +183,7 @@ header {
 
 /* Styles for quote section */
 
-.quote-section {
+.quote {
   display: flex;
   align-items: center;
   height: 200px;
